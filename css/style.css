@@ -1,0 +1,48 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Import Components stylesheets */
+
+@import url("components/banner.css");
+@import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/containers.css");
+@import url("components/footer.css");
+
+
+/* Utilities */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h1 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  text-align: center;
+  font-family: "Ubuntu";
+}
+
+h3 {
+  font-family: "Ubuntu Sans";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Custom design below! */
